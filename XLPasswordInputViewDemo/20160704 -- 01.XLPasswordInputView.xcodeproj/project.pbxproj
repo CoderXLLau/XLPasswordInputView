@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		539108DF1D2A68330004578E /* UIImage+XLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 539108DA1D2A68330004578E /* UIImage+XLExtension.m */; };
+		539108E01D2A68330004578E /* UIView+XLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 539108DC1D2A68330004578E /* UIView+XLExtension.m */; };
+		539108E11D2A68330004578E /* XLPasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 539108DE1D2A68330004578E /* XLPasswordInputView.m */; };
+		53F343A61D2A3D4400EF95BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F343A51D2A3D4400EF95BB /* main.m */; };
+		53F343A91D2A3D4400EF95BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F343A81D2A3D4400EF95BB /* AppDelegate.m */; };
+		53F343AC1D2A3D4400EF95BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F343AB1D2A3D4400EF95BB /* ViewController.m */; };
+		53F343AF1D2A3D4400EF95BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F343AD1D2A3D4400EF95BB /* Main.storyboard */; };
+		53F343B11D2A3D4400EF95BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53F343B01D2A3D4400EF95BB /* Assets.xcassets */; };
+		53F343B41D2A3D4400EF95BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F343B21D2A3D4400EF95BB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		539108D91D2A68330004578E /* UIImage+XLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XLExtension.h"; sourceTree = "<group>"; };
+		539108DA1D2A68330004578E /* UIImage+XLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XLExtension.m"; sourceTree = "<group>"; };
+		539108DB1D2A68330004578E /* UIView+XLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XLExtension.h"; sourceTree = "<group>"; };
+		539108DC1D2A68330004578E /* UIView+XLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XLExtension.m"; sourceTree = "<group>"; };
+		539108DD1D2A68330004578E /* XLPasswordInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPasswordInputView.h; sourceTree = "<group>"; };
+		539108DE1D2A68330004578E /* XLPasswordInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPasswordInputView.m; sourceTree = "<group>"; };
+		53F343A11D2A3D4400EF95BB /* 20160704 -- 01.XLPasswordInputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20160704 -- 01.XLPasswordInputView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F343A51D2A3D4400EF95BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53F343A71D2A3D4400EF95BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53F343A81D2A3D4400EF95BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53F343AA1D2A3D4400EF95BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		53F343AB1D2A3D4400EF95BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		53F343AE1D2A3D4400EF95BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53F343B01D2A3D4400EF95BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53F343B31D2A3D4400EF95BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53F343B51D2A3D4400EF95BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53F3439E1D2A3D4400EF95BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		539108D81D2A68330004578E /* XLPasswordInputView */ = {
+			isa = PBXGroup;
+			children = (
+				539108D91D2A68330004578E /* UIImage+XLExtension.h */,
+				539108DA1D2A68330004578E /* UIImage+XLExtension.m */,
+				539108DB1D2A68330004578E /* UIView+XLExtension.h */,
+				539108DC1D2A68330004578E /* UIView+XLExtension.m */,
+				539108DD1D2A68330004578E /* XLPasswordInputView.h */,
+				539108DE1D2A68330004578E /* XLPasswordInputView.m */,
+			);
+			path = XLPasswordInputView;
+			sourceTree = "<group>";
+		};
+		53F343981D2A3D4400EF95BB = {
+			isa = PBXGroup;
+			children = (
+				53F343A31D2A3D4400EF95BB /* 20160704 -- 01.XLPasswordInputView */,
+				53F343A21D2A3D4400EF95BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53F343A21D2A3D4400EF95BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53F343A11D2A3D4400EF95BB /* 20160704 -- 01.XLPasswordInputView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53F343A31D2A3D4400EF95BB /* 20160704 -- 01.XLPasswordInputView */ = {
+			isa = PBXGroup;
+			children = (
+				539108D81D2A68330004578E /* XLPasswordInputView */,
+				53F343A71D2A3D4400EF95BB /* AppDelegate.h */,
+				53F343A81D2A3D4400EF95BB /* AppDelegate.m */,
+				53F343AA1D2A3D4400EF95BB /* ViewController.h */,
+				53F343AB1D2A3D4400EF95BB /* ViewController.m */,
+				53F343AD1D2A3D4400EF95BB /* Main.storyboard */,
+				53F343B01D2A3D4400EF95BB /* Assets.xcassets */,
+				53F343B21D2A3D4400EF95BB /* LaunchScreen.storyboard */,
+				53F343B51D2A3D4400EF95BB /* Info.plist */,
+				53F343A41D2A3D4400EF95BB /* Supporting Files */,
+			);
+			path = "20160704 -- 01.XLPasswordInputView";
+			sourceTree = "<group>";
+		};
+		53F343A41D2A3D4400EF95BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53F343A51D2A3D4400EF95BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53F343A01D2A3D4400EF95BB /* 20160704 -- 01.XLPasswordInputView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F343B81D2A3D4400EF95BB /* Build configuration list for PBXNativeTarget "20160704 -- 01.XLPasswordInputView" */;
+			buildPhases = (
+				53F3439D1D2A3D4400EF95BB /* Sources */,
+				53F3439E1D2A3D4400EF95BB /* Frameworks */,
+				53F3439F1D2A3D4400EF95BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20160704 -- 01.XLPasswordInputView";
+			productName = "20160704 -- 01.XLPasswordInputView";
+			productReference = 53F343A11D2A3D4400EF95BB /* 20160704 -- 01.XLPasswordInputView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53F343991D2A3D4400EF95BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LiuShannoon;
+				TargetAttributes = {
+					53F343A01D2A3D4400EF95BB = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 53F3439C1D2A3D4400EF95BB /* Build configuration list for PBXProject "20160704 -- 01.XLPasswordInputView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53F343981D2A3D4400EF95BB;
+			productRefGroup = 53F343A21D2A3D4400EF95BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53F343A01D2A3D4400EF95BB /* 20160704 -- 01.XLPasswordInputView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53F3439F1D2A3D4400EF95BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F343B41D2A3D4400EF95BB /* LaunchScreen.storyboard in Resources */,
+				53F343B11D2A3D4400EF95BB /* Assets.xcassets in Resources */,
+				53F343AF1D2A3D4400EF95BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53F3439D1D2A3D4400EF95BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539108E11D2A68330004578E /* XLPasswordInputView.m in Sources */,
+				539108DF1D2A68330004578E /* UIImage+XLExtension.m in Sources */,
+				53F343AC1D2A3D4400EF95BB /* ViewController.m in Sources */,
+				53F343A91D2A3D4400EF95BB /* AppDelegate.m in Sources */,
+				539108E01D2A68330004578E /* UIView+XLExtension.m in Sources */,
+				53F343A61D2A3D4400EF95BB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53F343AD1D2A3D4400EF95BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53F343AE1D2A3D4400EF95BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53F343B21D2A3D4400EF95BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53F343B31D2A3D4400EF95BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53F343B61D2A3D4400EF95BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53F343B71D2A3D4400EF95BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53F343B91D2A3D4400EF95BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "20160704 -- 01.XLPasswordInputView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tohoapp.-0160704----01-XLPasswordInputView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53F343BA1D2A3D4400EF95BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "20160704 -- 01.XLPasswordInputView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tohoapp.-0160704----01-XLPasswordInputView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53F3439C1D2A3D4400EF95BB /* Build configuration list for PBXProject "20160704 -- 01.XLPasswordInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F343B61D2A3D4400EF95BB /* Debug */,
+				53F343B71D2A3D4400EF95BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F343B81D2A3D4400EF95BB /* Build configuration list for PBXNativeTarget "20160704 -- 01.XLPasswordInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F343B91D2A3D4400EF95BB /* Debug */,
+				53F343BA1D2A3D4400EF95BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53F343991D2A3D4400EF95BB /* Project object */;
+}
