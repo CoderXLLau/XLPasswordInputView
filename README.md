@@ -7,7 +7,7 @@
 
 
 -	示例图片2
-	![image](https://github.com/Shannoon/XLPasswordInputView/blob/master/password1.jpg )   
+	![image](https://github.com/Shannoon/XLPasswordInputView/blob/master/password1.png )   
 
 
 # 2. 安装使用方法
