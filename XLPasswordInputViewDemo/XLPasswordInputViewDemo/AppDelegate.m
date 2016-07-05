@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  20160704 -- 01.XLPasswordInputView
+//  XLPasswordInputViewDemo
 //
-//  Created by Liushannoon on 16/7/4.
+//  Created by Liushannoon on 16/7/5.
 //  Copyright © 2016年 LiuShannoon. All rights reserved.
 //
 

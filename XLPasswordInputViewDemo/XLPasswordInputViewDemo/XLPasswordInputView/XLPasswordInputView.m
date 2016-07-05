@@ -248,14 +248,15 @@
 
 #pragma mark - 文本框内容改变
 - (void)textChange:(UITextField *)textField {
-    NSString *password = textField.text;
-    if (password.length > _passwordLength) {
+    NSString *text = textField.text;
+    if (text.length > _passwordLength) {
         //substringToIndex,index从0开始, 不包含最后index所指的那个字符,在这里接到的子串不包含6所指的字符
-        textField.text = [password substringToIndex:_passwordLength];
+        text = [text substringToIndex:_passwordLength];
+        textField.text = text;
     }
     self.inputCount = textField.text.length;
     if (self.passwordBlock) {
-        self.passwordBlock(password);
+        self.passwordBlock(text);
     }
 }
 
@@ -301,6 +302,7 @@
     [self labelsArray];
     
     self.inputCount = self.inputCount;
+    [self textChange:self.textField];
 }
 
 @end

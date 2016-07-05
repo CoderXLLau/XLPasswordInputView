@@ -1,20 +1,16 @@
 //
 //  ViewController.m
-//  20160704 -- 01.XLPasswordInputView
+//  XLPasswordInputViewDemo
 //
-//  Created by Liushannoon on 16/7/4.
+//  Created by Liushannoon on 16/7/5.
 //  Copyright © 2016年 LiuShannoon. All rights reserved.
 //
 
 #import "ViewController.h"
-
 #import "XLPasswordInputView.h"
 
 @interface ViewController ()
 
-/**
- *
- */
 @property (nonatomic , weak) XLPasswordInputView *passwordInputView;
 
 @end
@@ -23,10 +19,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    
     XLPasswordInputView *passwordInputView = [XLPasswordInputView passwordInputViewWithPasswordLength:7];
     passwordInputView.frame = CGRectMake(10, 100, 54 * 6, 54);
+    passwordInputView.dotColor = [UIColor yellowColor];
     [self.view addSubview:passwordInputView];
+    passwordInputView.passwordBlock = ^(NSString *password){
+        NSLog(@"\n password : %@ ",password);
+    };
     self.passwordInputView = passwordInputView;
     
     UIButton *button = [[UIButton alloc] init];
