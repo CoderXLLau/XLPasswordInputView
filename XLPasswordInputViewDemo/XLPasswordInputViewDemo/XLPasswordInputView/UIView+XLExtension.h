@@ -8,19 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-// 屏幕bounds
 #define XLScreenBounds [UIScreen mainScreen].bounds
-// 屏幕的size
 #define XLScreenSize [UIScreen mainScreen].bounds.size
-/** 屏幕宽度 */
 #define XLScreenW [UIScreen mainScreen].bounds.size.width
-/** 屏幕高度 */
 #define XLScreenH [UIScreen mainScreen].bounds.size.height
+#define xl_autoSizeScaleX ([UIScreen mainScreen].bounds.size.width / 375)
+#define xl_autoSizeScaleY ([UIScreen mainScreen].bounds.size.height / 667)
+
 /**
  *  过期提醒
  */
 #define XLDeprecated(instead) NS_DEPRECATED(2_0, 2_0, 2_0, 2_0, instead)
-/** 程序的主窗口 */
+/**
+ *  程序的主窗口
+ */
 //#define XLKeyWindow [UIApplication sharedApplication].keyWindow
 #define XLKeyWindow [UIApplication sharedApplication].windows.firstObject
 

@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
+
 #import "XLPasswordInputView.h"
+#import "UIView+XLExtension.h"
 
 @interface ViewController ()
 
@@ -21,7 +23,10 @@
     [super viewDidLoad];
     
     XLPasswordInputView *passwordInputView = [XLPasswordInputView passwordInputViewWithPasswordLength:7];
-    passwordInputView.frame = CGRectMake(10, 100, 54 * 6, 54);
+    CGFloat gridWidth = 54 * xl_autoSizeScaleX;
+    
+    passwordInputView.frame = CGRectMake(20, 100, gridWidth * 6, gridWidth);
+    
     passwordInputView.dotColor = [UIColor yellowColor];
     [self.view addSubview:passwordInputView];
     passwordInputView.passwordBlock = ^(NSString *password){
