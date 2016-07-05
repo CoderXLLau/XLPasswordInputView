@@ -28,7 +28,10 @@
     passwordInputView.dotColor = [UIColor yellowColor];
     [self.view addSubview:passwordInputView];
     passwordInputView.passwordBlock = ^(NSString *password){
-        NSLog(@"\n password : %@ ",password);
+        if (password.length <= 0 || password == nil) {
+            NSLog(@"密码位数已经为0");
+        }
+        NSLog(@"\n password : %@",password);
     };
     self.passwordInputView = passwordInputView;
     

@@ -15,7 +15,7 @@
 -    方法一: 
 
 	```
-   pod 'XLPasswordInputView', '~> 1.0.0'
+   pod 'XLPasswordInputView', '~> 1.0.1'
 	
 	```
 
