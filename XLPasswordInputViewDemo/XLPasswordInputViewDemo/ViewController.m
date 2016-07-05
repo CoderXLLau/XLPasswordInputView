@@ -24,9 +24,7 @@
     
     XLPasswordInputView *passwordInputView = [XLPasswordInputView passwordInputViewWithPasswordLength:7];
     CGFloat gridWidth = 54 * xl_autoSizeScaleX;
-    
     passwordInputView.frame = CGRectMake(20, 100, gridWidth * 6, gridWidth);
-    
     passwordInputView.dotColor = [UIColor yellowColor];
     [self.view addSubview:passwordInputView];
     passwordInputView.passwordBlock = ^(NSString *password){
