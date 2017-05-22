@@ -16,9 +16,12 @@
 		5360D2481D2B765100E44E89 /* UIImage+XLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5360D2431D2B765100E44E89 /* UIImage+XLExtension.m */; };
 		5360D2491D2B765100E44E89 /* UIView+XLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5360D2451D2B765100E44E89 /* UIView+XLExtension.m */; };
 		5360D24A1D2B765100E44E89 /* XLPasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5360D2471D2B765100E44E89 /* XLPasswordInputView.m */; };
+		7F20185D09B2C21C949751FB /* libPods-XLPasswordInputViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 811B95CE91DDAD1918ACAB2F /* libPods-XLPasswordInputViewDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26B232D5EAB3CF06392BDCCB /* Pods-XLPasswordInputViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPasswordInputViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XLPasswordInputViewDemo/Pods-XLPasswordInputViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4A430CBD36C8376FBB83437B /* Pods-XLPasswordInputViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPasswordInputViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLPasswordInputViewDemo/Pods-XLPasswordInputViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5360D2271D2B763500E44E89 /* XLPasswordInputViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLPasswordInputViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5360D22B1D2B763500E44E89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5360D22D1D2B763500E44E89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -35,6 +38,7 @@
 		5360D2451D2B765100E44E89 /* UIView+XLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XLExtension.m"; sourceTree = "<group>"; };
 		5360D2461D2B765100E44E89 /* XLPasswordInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPasswordInputView.h; sourceTree = "<group>"; };
 		5360D2471D2B765100E44E89 /* XLPasswordInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPasswordInputView.m; sourceTree = "<group>"; };
+		811B95CE91DDAD1918ACAB2F /* libPods-XLPasswordInputViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLPasswordInputViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F20185D09B2C21C949751FB /* libPods-XLPasswordInputViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +58,8 @@
 			children = (
 				5360D2291D2B763500E44E89 /* XLPasswordInputViewDemo */,
 				5360D2281D2B763500E44E89 /* Products */,
+				F3EA78DAF88AF446A8CBCCD4 /* Pods */,
+				DE7131784FF73198EE051178 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +109,23 @@
 			path = XLPasswordInputView;
 			sourceTree = "<group>";
 		};
+		DE7131784FF73198EE051178 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				811B95CE91DDAD1918ACAB2F /* libPods-XLPasswordInputViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3EA78DAF88AF446A8CBCCD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26B232D5EAB3CF06392BDCCB /* Pods-XLPasswordInputViewDemo.debug.xcconfig */,
+				4A430CBD36C8376FBB83437B /* Pods-XLPasswordInputViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,9 +133,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5360D23E1D2B763500E44E89 /* Build configuration list for PBXNativeTarget "XLPasswordInputViewDemo" */;
 			buildPhases = (
+				BFACB18A9BA74533D942E06E /* [CP] Check Pods Manifest.lock */,
 				5360D2231D2B763500E44E89 /* Sources */,
 				5360D2241D2B763500E44E89 /* Frameworks */,
 				5360D2251D2B763500E44E89 /* Resources */,
+				31C5638F77E5113F12C92F5A /* [CP] Embed Pods Frameworks */,
+				C0C2D590ECBF290E01AF1DE6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -166,6 +193,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31C5638F77E5113F12C92F5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XLPasswordInputViewDemo/Pods-XLPasswordInputViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFACB18A9BA74533D942E06E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0C2D590ECBF290E01AF1DE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XLPasswordInputViewDemo/Pods-XLPasswordInputViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5360D2231D2B763500E44E89 /* Sources */ = {
@@ -287,6 +362,7 @@
 		};
 		5360D23F1D2B763500E44E89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B232D5EAB3CF06392BDCCB /* Pods-XLPasswordInputViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -300,6 +376,7 @@
 		};
 		5360D2401D2B763500E44E89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A430CBD36C8376FBB83437B /* Pods-XLPasswordInputViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

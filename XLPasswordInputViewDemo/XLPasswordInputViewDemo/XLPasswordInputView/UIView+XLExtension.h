@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <SDWebImage/UIImageView+WebCache.h>
 
 #define XLScreenBounds [UIScreen mainScreen].bounds
 #define XLScreenSize [UIScreen mainScreen].bounds.size

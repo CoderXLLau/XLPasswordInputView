@@ -1,13 +1,14 @@
 Pod::Spec.new do |s|
     s.name         = 'XLPasswordInputView'
-    s.version      = '1.0.1'
+    s.version      = '1.0.3'
     s.summary      = 'An easy password input view'
-    s.homepage     = 'https://github.com/Shannoon/XLPasswordInputView'
+    s.homepage     = 'https://github.com/CoderXLLau/XLPasswordInputView.git'
     s.license      = 'MIT'
-    s.authors      = {'Shannoon' => '2604156181@qq.com'}
+    s.authors      = {'CoderXLLau' => '2604156181@qq.com'}
     s.platform     = :ios, '7.0'
-    s.source       = {:git => 'https://github.com/Shannoon/XLPasswordInputView.git', :tag => s.version}
+    s.source       = {:git => 'https://github.com/CoderXLLau/XLPasswordInputView.git', :tag => s.version}
     s.source_files = 'XLPasswordInputView/*'
+    s.dependency 'SDWebImage', '~> 4.0.0'
  
     s.requires_arc = true
 end
