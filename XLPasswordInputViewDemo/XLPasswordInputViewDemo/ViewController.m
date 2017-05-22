@@ -35,12 +35,23 @@
     };
     self.passwordInputView = passwordInputView;
     
-    UIButton *button = [[UIButton alloc] init];
-    [button setTitle:@"切换明密文" forState:UIControlStateNormal];
-    [button setTitleColor:[UIColor purpleColor] forState:UIControlStateNormal];
-    [self.view addSubview:button];
-    button.frame = CGRectMake(100, 200, 100, 30);
-    [button addTarget:self action:@selector(changeSecrity) forControlEvents:UIControlEventTouchUpInside];
+    {
+        UIButton *button = [[UIButton alloc] init];
+        [button setTitle:@"清空密码" forState:UIControlStateNormal];
+        [button setTitleColor:[UIColor purpleColor] forState:UIControlStateNormal];
+        [self.view addSubview:button];
+        button.frame = CGRectMake(100, 260, 100, 30);
+        [button addTarget:self.passwordInputView action:@selector(clearPassword) forControlEvents:UIControlEventTouchUpInside];
+    }
+    
+    {
+        UIButton *button = [[UIButton alloc] init];
+        [button setTitle:@"切换明密文" forState:UIControlStateNormal];
+        [button setTitleColor:[UIColor purpleColor] forState:UIControlStateNormal];
+        [self.view addSubview:button];
+        button.frame = CGRectMake(100, 200, 100, 30);
+        [button addTarget:self action:@selector(changeSecrity) forControlEvents:UIControlEventTouchUpInside];
+    }
 }
 
 - (void)changeSecrity

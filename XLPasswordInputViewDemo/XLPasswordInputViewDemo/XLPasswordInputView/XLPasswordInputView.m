@@ -282,8 +282,9 @@
  */
 - (void)clearPassword
 {
-    self.textField.text = nil;
+    self.textField.text = @"";
     self.inputCount = 0;
+    [self textChange:self.textField];
 }
 
 #pragma mark    -   private method
