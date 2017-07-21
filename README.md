@@ -39,6 +39,9 @@ XLPasswordInputView *passwordInputView = [XLPasswordInputView passwordInputViewW
 
 ```
 
+# 3. 其他相关
+ [XLPasswordView的GitHub链接,一个仿照支付宝支付的组件](https://github.com/CoderXLLau/XLPasswordView).
+
 
 
    
